@@ -20,18 +20,6 @@
         android:layout_alignParentEnd="true"
         android:id="@+id/imageButton_addShops" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Add shop names"
-        android:ems="10"
-        android:layout_alignBottom="@+id/imageButton_addShops"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/editText_addShopNames"
-        android:layout_alignParentTop="true" />
-
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -49,4 +37,16 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:id="@+id/buttonNext_MainActivity" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Add shop names"
+        android:ems="10"
+        android:id="@+id/editText_addShopNames"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp" />
 </RelativeLayout>

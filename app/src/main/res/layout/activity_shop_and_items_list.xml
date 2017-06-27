@@ -20,18 +20,6 @@
         android:layout_alignParentEnd="true"
         android:id="@+id/imageButton" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Add items"
-        android:ems="10"
-        android:layout_marginTop="50dp"
-        android:id="@+id/editText_AddItems"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
     <CheckBox
         android:text="CheckBox"
         android:layout_width="wrap_content"
@@ -59,4 +47,16 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:id="@+id/checkBox3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Add items"
+        android:ems="10"
+        android:layout_marginTop="39dp"
+        android:id="@+id/editText_AddItems"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
